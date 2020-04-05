@@ -1,0 +1,114 @@
+.middleBar{
+        overflow: scroll;
+}
+.boardView{
+        overflow: scroll;
+}
+
+.board{
+        display: flex;
+        height: 95%;
+}
+.boardContainer{
+        display             : flex;
+        background-color    : #d9dcdd;
+        flex                : 1;
+}
+.boardContainer > * {
+        padding: 20px;
+}
+.addStackContainer {
+        
+}
+.addStack{
+        border-radius : 20px;
+        background    : white;
+        padding       : 15px;
+        cursor        : pointer;
+        color         : var(--primary_color);
+        font-weight   : 500;
+
+        align-self    : flex-start;
+        /* flex       : 0 0 auto; calculate width automatically and size doesnot increase or decrease */
+        flex          : 0 0 auto;
+}
+
+
+/* boardListing */
+.board_list_container{
+        height        : inherit;
+        background    : white;
+        border-radius : 10px;
+}
+.board_list_container > * {
+        padding: 15px;
+}
+
+.board_list {
+        padding       : 20px;
+        flex          : 1;
+        background    : #ececec;
+        overflow: scroll;
+}
+.board_item {
+        padding       : 10px;
+        margin-top    : 10px;
+        margin-bottom : 10px;
+        border-radius : 7px;
+        background    : #f0f8ff;
+}
+.board_item:hover {
+        background    : #e0f0ff;
+        box-shadow    : 0px 0px 7px 1px #949494;
+}
+
+.board_item > * {
+        padding-left    : 10px;
+        padding-right   : 10px;
+}
+
+.create_board{
+        color: var(--primary_color);
+}
+
+/* board edit dialog */
+.board_edit_container {
+        border-radius   : 10px;
+        background      : white;
+        height          : 100%;
+}
+.board_edit_container > * {
+        padding: 15px;
+}
+.labelContainer {
+        margin-top: 25px;
+}
+.labelContainer > * {
+        margin-top    : 7px;
+        margin-bottom : 7px;
+}
+
+.board_name_title, .board_description_title, .board_color_title{
+        color : #747474;
+}
+.board_name_value, .board_description_value{
+        border-radius   : 10px;
+        border          : 1px solid #e3e3e3;
+        cursor          : text;
+        padding-top     : 12px;
+        padding-left    : 10px;
+}
+
+.board_name_value {
+        height          : 30px;
+}
+.board_description_value {
+        height          : 100px;
+}
+.buttonContainer{
+        display           : flex;
+        justify-content   : flex-end;
+}
+.edit_header , .edit_footer{
+        background: #ececec;
+}

@@ -1,0 +1,55 @@
+.board_view{
+        display: flex;
+}
+.stack_view{
+        /* display: flex; */
+}
+.stack{
+        background-color    : aliceblue;
+        /* min-width           : 100px;
+        min-height          : 100px; */
+        margin-left         : 5px;
+        border              : 1px solid black;
+        background-color    : #edf0f1;
+        width               : 320px;
+    }
+.stack_header{
+        height    : 50px;
+        padding   : 10px;
+        color     : white;
+}
+.stack_footer {
+        padding: 10px;
+}
+.card_holder {
+        flex: 1;
+        overflow: scroll;
+}
+.card_holder > * {
+        margin: 10px;
+}
+
+.stack_name{
+        flex: 1 1 auto;
+}
+
+/* Stack Edit Dialog */
+.stack_edit_container{
+        background    : white;
+        border-radius : 10px;
+        height        : 100%;
+}
+.stack_edit_container > * {
+        padding: 15px;
+}
+.stack_name_title, .stack_color_title{
+        color : #747474;
+}
+.stack_name_value {
+        border-radius   : 10px;
+        border          : 1px solid #e3e3e3;
+        cursor          : text;
+        padding-top     : 12px;
+        padding-left    : 10px;
+        height          : 30px;
+}

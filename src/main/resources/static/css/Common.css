@@ -1,0 +1,116 @@
+:root{
+        --primary_color:#00aaff;
+}
+body{
+        margin     : 0;
+        height     : 100vh;
+        font-family: Avenir Next,Segoe UI,Helvetica,Arial,sans-serif;
+}
+div:focus, input:focus{
+        outline: none;
+}
+.wid100{
+        width: 100%;
+}
+.hgt100{
+        height: 100%;
+}
+.pos_abs{
+        position: absolute;
+}
+.center_abs{
+        position: absolute;
+        top         : 50%;
+        left        : 50%;
+        transform   : translate(-50%, -50%);        
+}
+
+.center_margin{
+        margin: 0 auto;
+}
+.flex{
+        display: flex;
+}
+
+.flex1{
+        flex: 1;
+}
+
+.flex_column{
+        flex-direction: column;
+}
+
+.cursor_pointer{
+        cursor: pointer;
+}
+
+.circle{
+        position        : relative;
+        background      : white;
+        width           : 30px;
+        height          : 30px;
+        border-radius   : 100%;
+}
+
+.text_center{
+        text-align: center;
+}
+
+.buttonContainer {
+        display: flex;
+        justify-content: flex-end;
+}
+.save{
+        background    : var(--primary_color);
+        color         : white;
+        padding       : 10px;
+        border-radius : 10px;
+        width         : 60px;
+        text-align    : center;
+}
+.cancel {
+        padding         : 10px;
+        border-radius   : 10px;
+        width           : 60px;
+        text-align      : center;
+}
+
+.color_container {
+        justify-content: space-around;
+}
+
+.color_item {
+        width             : 30px;
+        height            : 30px;
+        justify-content   : center;
+        align-items       : center;
+}
+.color_holder {
+        width           : 15px;
+        height          : 15px;
+        border-radius   : 100%;
+}
+.color_item.active > .color_holder {
+        height    : 30px;
+        width     : 30px;
+}
+
+.close{
+        height : inherit;
+        width  : 22px;
+        padding: 5px;
+}
+.close::before, .close::after{
+        content   :'';
+        height    : 2px;
+        width     : 14px;
+        background: #8a9499;
+        top       : 45%;
+        position  : absolute;
+}
+.close::before{
+        transform: rotate(45deg);
+}
+.close::after{
+        transform: rotate(-45deg);
+}

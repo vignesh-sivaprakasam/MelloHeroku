@@ -1,0 +1,40 @@
+.expandedCard{
+        border-radius   : 2%;
+        background      : white;
+        width           : 700px;
+        height          : 700px;
+        box-shadow      : 0px 8px 18px 0px grey;
+}
+.exp_card_header{
+        min-height    : 30px;
+        padding       : 16px 22px 20px 22px;
+        border-bottom : 1px solid #dce2e6;
+        position      : relative;
+        display       : flex;
+        align-items   : center;
+        height        : 50px;
+}
+.expand_card_header > * {
+        padding : 10px;
+}
+.exp_card_close{
+        cursor    : pointer;
+        position  : relative;
+}
+.exp_card_title{
+        font-weight: 600;
+}
+.exp_card_body{
+        padding: 20px 20px;
+}
+.exp_card_body > * {
+        padding: 10px;
+}
+
+.exp_body_title{
+        font-size   : 20px;
+        font-weight: 500;
+}
+.exp_body_desc{
+        max-height    : 50px;
+}
