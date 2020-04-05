@@ -1,7 +1,7 @@
 "use strict";
 (function (ctx) {
         const App       = ctx.App || (ctx.App = {});
-        const domain    = "http://localhost:5000";
+        const domain    = server_domain;
         const boardsUrl = "/api/boards";
 
         const boardUrl = domain + boardsUrl;

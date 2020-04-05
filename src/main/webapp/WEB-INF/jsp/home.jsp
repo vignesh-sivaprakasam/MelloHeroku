@@ -12,6 +12,11 @@
                 <link rel="stylesheet" href="/css/Menu.css">
                 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
+                <script>
+                        // window.server_domain = "http://localhost:5000";
+                        window.server_domain    = "https://mello-server.herokuapp.com";
+                </script>
+
                 <script src="js/Utility.js"></script>
                 <script src="js/ColorComponent.js"></script>
 

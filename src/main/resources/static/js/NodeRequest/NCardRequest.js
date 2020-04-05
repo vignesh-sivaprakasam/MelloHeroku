@@ -1,6 +1,6 @@
 "use strict";
 (function (ctx) {
-        const domain    = "http://localhost:5000";
+        const domain    = server_domain;
         const boardsUrl = "/api/boards";
         const stacksUrl = "/stacks";
         const cardsUrl  = "/cards";
